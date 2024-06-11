@@ -12,9 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/onn/mid1035_mq/device.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := twrp_mid1035_mq
 PRODUCT_DEVICE := mid1035_mq
